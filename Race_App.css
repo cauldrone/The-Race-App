@@ -9,3 +9,14 @@
     width: 400px;
     height: 600px;
 }
+
+#carbox{
+  border: 2px solid black;
+    height: 300px;
+    width: 400px;
+    align-content: center;
+}
+
+#svg {
+    background-color: beige;
+}
