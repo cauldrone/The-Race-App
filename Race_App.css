@@ -18,5 +18,45 @@
 }
 
 #svg {
-    background-color: beige;
+    background-color: white;
+}
+
+.colorbuttons {
+    height: 45px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#purple {
+    background-color: purple;
+}
+
+.levelbutton {
+    height: 70px;
+    width: 130px;
+    font-size: 20px;
+    background-color: aquamarine;
+}
+
+#startbutton {
+    height: 70px;
+    width: 400px;
+    background-color: orangered;
+    font-size: 40px;
 }
