@@ -1,4 +1,5 @@
 $(document).ready(()=> {
+
     //change color of the cars
     $("#red").click(()=> {
         $(".fillcolor").css({ fill: "red" });
