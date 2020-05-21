@@ -17,6 +17,9 @@ $(document).ready(()=> {
         $(".fillcolor").css({ fill: "purple" });
     });
 
+    //stopwatch
+
+
     //start button on menu screen
     let $menupage = $("#menubox");
     let $startbutton = $("#startbutton");
