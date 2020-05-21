@@ -18,7 +18,12 @@ $(document).ready(()=> {
     });
 
     //stopwatch
-
+    function stopwatch () {
+        var milliseconds = 0;
+        var seconds = 0;
+        var minutes = 0;
+        document.getElementById("timer").innerHTML = minutes + ":" + seconds + ":" + milliseconds;
+    }
 
     //start button on menu screen
     let $menupage = $("#menubox");
@@ -26,6 +31,7 @@ $(document).ready(()=> {
     $startbutton.on({
         click: () => {
             $menupage.hide();
+            stopwatch();
         }
     });
 
