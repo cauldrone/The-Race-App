@@ -1,6 +1,6 @@
 $(document).ready(()=> {
 
-    //change color of the cars
+    //change color of the car on menu page
     $("#red").click(()=> {
         $(".fillcolor").css({ fill: "red" });
     });
@@ -17,6 +17,9 @@ $(document).ready(()=> {
         $(".fillcolor").css({ fill: "purple" });
     });
 
+    //change color of game car
+    //function carColor (){}
+
     //stopwatch
     function stopwatch () {
         var milliseconds = 0;
@@ -32,6 +35,7 @@ $(document).ready(()=> {
         click: () => {
             $menupage.hide();
             stopwatch();
+            carColor();
         }
     });
 

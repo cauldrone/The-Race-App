@@ -93,4 +93,12 @@
     font-weight: bold;
 }
 
+#tracksvg {
+    border: 1px solid black;
+    background-color: lightgrey;
+}
 
+#car {
+    position: absolute;
+    text-align: center;
+}
