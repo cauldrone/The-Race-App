@@ -96,11 +96,12 @@
     border: 1px solid black;
     background-color: lightgrey;
     position: absolute;
-    margin-right: 100px;
+    margin-left: 88px;
 }
 
 #car {
     position: absolute;
+    margin-left: 160px;
     margin-top: 420px;
 }
 
