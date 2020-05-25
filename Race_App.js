@@ -20,6 +20,36 @@ $(document).ready(()=> {
     //change color of game car
     //function carColor (){}
 
+    //move car (left, right, up, down)
+    $('body').keyup(function(e){
+        //left
+        if(e.keyCode == 37){
+        $("#car").animate({
+            marginLeft: '-=55px'
+            });
+        }
+        //right
+        if(e.keyCode == 39){
+        $("#car").animate({
+            marginLeft: '+=55px'
+            });
+        }
+        //up
+        if(e.keyCode == 38){
+        $("#car").animate({
+            marginTop: '-=55px'
+            });
+        }
+        //down
+        if(e.keyCode == 40){
+        $("#car").animate({
+            marginTop: '+=55px'
+            });
+        }
+    });
+
+    //obstacles
+
     //stopwatch
     function stopwatch () {
         var milliseconds = 0;
