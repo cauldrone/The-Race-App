@@ -83,6 +83,12 @@
     margin-left: 102px;
     margin-top: 14px;
     margin-bottom: 3px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+
 }
 
 #menubutton {
@@ -91,6 +97,7 @@
     background-color: orangered;
     font-weight: bold;
 }
+
 
 #tracksvg {
     border: 1px solid black;

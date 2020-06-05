@@ -6,8 +6,12 @@
         <div id="backgroundbox" class="box"></div>
         <div id="levelone" class="box">
             <div class="topscreen">
+
                 <div id="tracksvg">
                 <svg width= "220" height = "460">
+
+                    <rect id="final" x="0" y="0" width="220" height="30" fill="white" stroke-width="1" stroke="white"/>
+
                     <rect x="0" y="0" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
                     <rect x="11" y="0" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
                     <rect x="22" y="0" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
@@ -50,26 +54,26 @@
                     <rect x="198" y="11" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
                     <rect x="209" y="11" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
 
-                    <rect x="0" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
-                    <rect x="11" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
-                    <rect x="22" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
-                    <rect x="33" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
-                    <rect x="44" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
-                    <rect x="55" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
-                    <rect x="66" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
-                    <rect x="77" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
-                    <rect x="88" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
-                    <rect x="99" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
-                    <rect x="110" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
-                    <rect x="121" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
-                    <rect x="132" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
-                    <rect x="143" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
-                    <rect x="154" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
-                    <rect x="165" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
-                    <rect x="176" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
-                    <rect x="187" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
-                    <rect x="198" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
-                    <rect x="209" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
+                    <rect class="finish" x="0" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
+                    <rect class="finish" x="11" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
+                    <rect class="finish" x="22" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
+                    <rect class="finish" x="33" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
+                    <rect class="finish" x="44" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
+                    <rect class="finish" x="55" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
+                    <rect class="finish" x="66" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
+                    <rect class="finish" x="77" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
+                    <rect class="finish" x="88" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
+                    <rect class="finish" x="99" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
+                    <rect class="finish" x="110" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
+                    <rect class="finish" x="121" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
+                    <rect class="finish" x="132" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
+                    <rect class="finish" x="143" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
+                    <rect class="finish" x="154" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
+                    <rect class="finish" x="165" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
+                    <rect class="finish" x="176" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
+                    <rect class="finish" x="187" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
+                    <rect class="finish" x="198" y="22" width="10" height="10" fill="black" stroke-width="1" stroke="black"/>
+                    <rect class="finish" x="209" y="22" width="10" height="10" fill="white" stroke-width="1" stroke="white"/>
 
                     <line x1="55" y1="33" x2="55" y2="43" stroke="white" stroke-width="2"/>
                     <line x1="55" y1="53" x2="55" y2="63" stroke="white" stroke-width="2"/>
@@ -143,12 +147,15 @@
                     </div>
                 <div id="car">
                 <svg width="30" height="45">
-                    <rect x="0" y="0" rx="5"  height="35" width="20" fill="white" stroke-length="1" stroke="black"/>
+                    <rect id="fillmini" x="0" y="0" rx="5"  height="35" width="20" fill="white" stroke-length="1" stroke="black"/>
+                    <rect x="3" y="5" height="5" width="14" fill="black" stroke="black" stroke-length="1"/>
+                    <rect x="3" y="23" height="5" width="14" fill="black" stroke="black" stroke-length="1"/>
                 </svg>
                 </div>
+
             </div>
             <div class="bottomscreen">
-                    <div id= "timer"></div>
+                    <div id= "timer">00:00</div>
                     <button id="menubutton">MENU</button>
             </div>
         </div>
