@@ -61,7 +61,7 @@ $(document).ready(()=> {
 
 
     //move car (left, right, up, down) (works!!)
-    $("body").keyup((event) => function(e){
+    $("body").keyup(function(e){
 
         //left
         if(e.keyCode == 37){
