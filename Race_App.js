@@ -78,7 +78,7 @@ $(document).ready(()=> {
         //up
         if(e.keyCode == 38){
         $source.animate({
-            marginTop: '-=50px'
+            marginTop: '-=48px'
             });
         }
         //down
